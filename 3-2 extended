@@ -1,0 +1,9 @@
+void setup()
+{
+  size(480,120);
+  point(240,60);
+  point(280,80);
+  point(200,80);
+  point(280,40);
+  point(200,40);
+}
