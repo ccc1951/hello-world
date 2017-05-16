@@ -1,0 +1,20 @@
+    draw();
+    fill(#D37F00);
+    triangle(360,60,120,60,240,400);
+    fill(#932A00);
+    quad(360,60,120,60,128,80,352,80);
+    fill(#F21800);
+    ellipse(300,120,35,35);
+    ellipse(180,120,35,35);
+    arc(240,240,50,50,3.14,6.28);
+    beginShape();
+    vertex(215,240);
+    vertex(223,260);
+    vertex(233,240);
+    vertex(240,260);
+    vertex(247,240);
+    vertex(256,260);
+    vertex(264,240);
+    endShape();
+   
+  }}
