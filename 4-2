@@ -1,0 +1,19 @@
+int radius = 80 ;
+float x = - radius ;
+float speed = 5 ;
+
+void setup () {
+  background(255,0,0);
+  size (500, 500) ;
+  smooth ();
+  ellipseMode (RADIUS) ;
+}
+
+void draw () {
+  fill (#FEFF0F) ;
+  x += speed ;
+  if (x > width + radius) {
+    x = -radius ;
+  }
+  arc (x, 200, radius, radius, 0.50, 5.75) ;
+}
